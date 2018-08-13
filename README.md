@@ -13,3 +13,7 @@ document.getElementById('btn').onclick= function(){
   nx.toClipboard('TEXT_FEI' + Math.random());
 }
 ```
+
+## resoruces:
++ https://blog.csdn.net/github_36091081/article/details/77508710
++ https://www.jb51.net/article/135605.htm
