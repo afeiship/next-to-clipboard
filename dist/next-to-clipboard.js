@@ -22,7 +22,6 @@
 
   nx.toClipboard = function (inText) {
     var el = getElement();
-    console.log(el);
     el.style.display = STYLE_SHOW;
     el.value = inText;
     el.select();
