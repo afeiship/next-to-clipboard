@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="../node_modules/next-js-core2/dist/next-js-core2.js"></script>
+  <script src="../src/next-to-clipboard.js"></script>
+  <style>
+    #btn{
+      width:100%;
+      padding: 20px;
+      background: green;
+      color:#fff;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="btn">BTN COPY RANDOM</button>
+
+  <script>
+    document.getElementById('btn').onclick= function(){
+      nx.toClipboard('TEXT_FEI' + Math.random());
+    }
+  </script>
+</body>
+</html>
