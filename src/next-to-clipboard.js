@@ -4,7 +4,7 @@
   var nx = global.nx || require('next-js-core2');
   var document = global.document;
   var tmpElement = document.createElement('textarea');
-  var ELEMENT_ID = '__TMP_ID__';
+  var ELEMENT_ID = '__UNQUE_INPUT_ID__';
   var STYLE_SHOW = 'block';
   var STYLE_HIDE = 'none';
   var EXEC_COPY = 'Copy';
