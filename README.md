@@ -17,3 +17,6 @@ document.getElementById('btn').onclick= function(){
 ## resoruces:
 + https://blog.csdn.net/github_36091081/article/details/77508710
 + https://www.jb51.net/article/135605.htm
+
+## todo(DO NOT USE INPUT):
++ https://github.com/sudodoki/copy-to-clipboard
