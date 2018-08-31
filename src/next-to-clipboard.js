@@ -24,6 +24,7 @@
     var el = getElement();
     el.style.display = STYLE_SHOW;
     el.value = inText;
+    el.readOnly = true;
     el.select();
     document.execCommand(EXEC_COPY);
     el.style.display = STYLE_HIDE;
