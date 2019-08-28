@@ -8,5 +8,7 @@ npm install -S afeiship/next-to-clipboard --registry=https://registry.npm.taobao
 
 ## usage
 ```js
-//DOCS here!
+document.getElementById('btn').onclick = function() {
+  nx.toClipboard('TEXT_FEI' + Math.random());
+};
 ```
