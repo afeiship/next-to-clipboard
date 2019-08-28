@@ -1,22 +1,12 @@
 # next-to-clipboard
 > Copy text to clipboard
 
-## install:
+## installation
 ```bash
 npm install -S afeiship/next-to-clipboard --registry=https://registry.npm.taobao.org
 ```
 
-## usage:
+## usage
 ```js
-//COPY SOME text to your clipboard:
-document.getElementById('btn').onclick= function(){
-  nx.toClipboard('TEXT_FEI' + Math.random());
-}
+//DOCS here!
 ```
-
-## resoruces:
-+ https://blog.csdn.net/github_36091081/article/details/77508710
-+ https://www.jb51.net/article/135605.htm
-
-## todo(DO NOT USE INPUT):
-+ https://github.com/sudodoki/copy-to-clipboard

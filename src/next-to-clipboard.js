@@ -1,5 +1,4 @@
-(function () {
-
+(function() {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('next-js-core2');
   var document = global.document;
@@ -20,9 +19,10 @@
     return el;
   }
 
-  nx.toClipboard = function (inText) {
+  nx.toClipboard = function(inText) {
     var el = getElement();
     el.style.display = STYLE_SHOW;
+    el.style.position = 'absolute';
     el.value = inText;
     el.readOnly = true;
     el.select();
@@ -30,9 +30,7 @@
     el.style.display = STYLE_HIDE;
   };
 
-
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = nx.toClipboard;
   }
-
-}());
+})();
