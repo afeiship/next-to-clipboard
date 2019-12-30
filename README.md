@@ -10,5 +10,7 @@ npm install -S @feizheng/next-to-clipboard
 ```js
 import '@feizheng/next-to-clipboard';
 
-//DOCS here!
+document.getElementById('btn').onclick = function() {
+  nx.toClipboard('TEXT_FEI' + Math.random());
+};
 ```
