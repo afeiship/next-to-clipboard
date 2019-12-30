@@ -1,14 +1,14 @@
 # next-to-clipboard
-> Copy text to clipboard
+> Copy text to clipboard.
 
 ## installation
 ```bash
-npm install -S afeiship/next-to-clipboard --registry=https://registry.npm.taobao.org
+npm install -S @feizheng/next-to-clipboard
 ```
 
 ## usage
 ```js
-document.getElementById('btn').onclick = function() {
-  nx.toClipboard('TEXT_FEI' + Math.random());
-};
+import '@feizheng/next-to-clipboard';
+
+//DOCS here!
 ```
