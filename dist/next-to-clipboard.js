@@ -1,13 +1,13 @@
 /*!
  * name: @feizheng/next-to-clipboard
  * description: Copy text to clipboard.
- * url: https://github.com/afeiship/next-to-clipboard
- * version: 1.0.0
- * date: 2019-12-30 20:28:16
+ * homepage: https://github.com/afeiship/next-to-clipboard
+ * version: 1.0.2
+ * date: 2020-08-13T10:15:25.891Z
  * license: MIT
  */
 
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
   var document = global.document;
@@ -28,7 +28,7 @@
     return el;
   }
 
-  nx.toClipboard = function(inText) {
+  nx.toClipboard = function (inText) {
     var el = getElement();
     el.style.display = STYLE_SHOW;
     el.style.position = 'absolute';
@@ -43,5 +43,3 @@
     module.exports = nx.toClipboard;
   }
 })();
-
-//# sourceMappingURL=next-to-clipboard.js.map
