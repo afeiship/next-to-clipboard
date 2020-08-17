@@ -13,7 +13,7 @@
     var el = document.getElementById(ELEMENT_ID);
     if (!el) {
       tmpElement.style.display = STYLE_HIDE;
-      document.body.append(tmpElement);
+      document.body.appendChild(tmpElement);
       el = tmpElement;
     }
     return el;

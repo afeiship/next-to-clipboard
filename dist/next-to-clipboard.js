@@ -2,8 +2,8 @@
  * name: @feizheng/next-to-clipboard
  * description: Copy text to clipboard.
  * homepage: https://github.com/afeiship/next-to-clipboard
- * version: 1.0.2
- * date: 2020-08-13T10:15:25.891Z
+ * version: 1.0.3
+ * date: 2020-08-17T09:19:59.718Z
  * license: MIT
  */
 
@@ -22,7 +22,7 @@
     var el = document.getElementById(ELEMENT_ID);
     if (!el) {
       tmpElement.style.display = STYLE_HIDE;
-      document.body.append(tmpElement);
+      document.body.appendChild(tmpElement);
       el = tmpElement;
     }
     return el;
