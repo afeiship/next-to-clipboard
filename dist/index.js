@@ -3,7 +3,7 @@
  * description: Copy text to clipboard.
  * homepage: https://github.com/afeiship/next-to-clipboard
  * version: 1.0.0
- * date: 2020-11-20 14:06:44
+ * date: 2020-11-20 14:07:26
  * license: MIT
  */
 
