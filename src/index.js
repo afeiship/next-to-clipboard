@@ -1,15 +1,6 @@
-/*!
- * name: @feizheng/next-to-clipboard
- * description: Copy text to clipboard.
- * homepage: https://github.com/afeiship/next-to-clipboard
- * version: 1.0.3
- * date: 2020-08-17T09:19:59.718Z
- * license: MIT
- */
-
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var document = global.document;
   var tmpElement = document.createElement('textarea');
   var ELEMENT_ID = '__UNQUE_INPUT_ID__';

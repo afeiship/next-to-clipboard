@@ -8,12 +8,12 @@
 
 ## installation
 ```bash
-npm install -S @feizheng/next-to-clipboard
+npm install -S @jswork/next-to-clipboard
 ```
 
 ## usage
 ```js
-import '@feizheng/next-to-clipboard';
+import '@jswork/next-to-clipboard';
 
 document.getElementById('btn').onclick = function() {
   nx.toClipboard('TEXT_FEI' + Math.random());
@@ -23,14 +23,14 @@ document.getElementById('btn').onclick = function() {
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-to-clipboard/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/next-to-clipboard
-[version-url]: https://npmjs.org/package/@feizheng/next-to-clipboard
+[version-image]: https://img.shields.io/npm/v/@jswork/next-to-clipboard
+[version-url]: https://npmjs.org/package/@jswork/next-to-clipboard
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/next-to-clipboard
+[license-image]: https://img.shields.io/npm/l/@jswork/next-to-clipboard
 [license-url]: https://github.com/afeiship/next-to-clipboard/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-to-clipboard
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-to-clipboard
 [size-url]: https://github.com/afeiship/next-to-clipboard/blob/master/dist/next-to-clipboard.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/next-to-clipboard
-[download-url]: https://www.npmjs.com/package/@feizheng/next-to-clipboard
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-to-clipboard
+[download-url]: https://www.npmjs.com/package/@jswork/next-to-clipboard
