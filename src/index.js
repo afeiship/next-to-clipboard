@@ -6,7 +6,7 @@ const ELEMENT_ID = '__UNQUE_INPUT_ID__';
 tmpElement.id = ELEMENT_ID;
 
 function getElement() {
-  const el = document.getElementById(ELEMENT_ID);
+  let el = document.getElementById(ELEMENT_ID);
   if (!el) {
     tmpElement.style.display = 'none';
     document.body.appendChild(tmpElement);
