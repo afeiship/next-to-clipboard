@@ -27,7 +27,7 @@ nx.toClipboard = function (inText) {
 };
 
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = nx.nx.toClipboard;
+  module.exports = nx.toClipboard;
 }
 
-export default nx.nx.toClipboard;
+export default nx.toClipboard;
